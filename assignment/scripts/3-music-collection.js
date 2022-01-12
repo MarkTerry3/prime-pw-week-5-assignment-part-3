@@ -5,9 +5,13 @@ let collection = [];
 
 function addToCollection(title, artist, yearPublished){
   let info = {
-    title:'Let it be',
-    artist:'The Beatles',
-    yearPublished:'1970'
+    title: title,
+    artist: artist,
+    yearPublished: yearPublished
   }//end info
-  collection.push(info.title, info.artist, info.yearPublished)
+  collection.push(info)
 }// end addToCollection
+
+addToCollection('when im gone', 'eminem', '2007')
+
+console.log(collection);
