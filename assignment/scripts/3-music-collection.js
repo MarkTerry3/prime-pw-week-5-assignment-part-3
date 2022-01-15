@@ -20,7 +20,7 @@ let results = [];
 
 function findByArtist(artist){
   for (let i = 0; i < collection.length; i++) {
-    if (collection[i] === artist) {
+    if (collection[i] == artist) {
       console.log('Weve found a match', artist);
     }// end if statement
   }// end for loop
